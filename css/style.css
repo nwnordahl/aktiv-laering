@@ -1,0 +1,47 @@
+/* Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  background-color: #e9d8a6;
+  padding: 50px 200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: #023047;
+  font-size: 48px;
+}
+
+.header ul {
+  display: flex;
+  gap: 25px;
+}
+
+.header ul li a {
+  color: #005f73;
+  font-size: 32px;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+}
