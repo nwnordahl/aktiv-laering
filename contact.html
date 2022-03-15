@@ -27,13 +27,13 @@
     <!-- Main section -->
     <div class="main-section">
       <div class="form-container">
-        <form>
+        <form action="https://httpbin.org/post" method="post">
           <h3>Kontaktskjema</h3>
           <label for="name"><i>Fullt navn</i></label>
-          <input type="text" />
+          <input id="name" type="text" name="name" required />
           <label for="email"><i>E-post</i></label>
-          <input type="text" />
-          <a href="./about.html">Send</a>
+          <input id="email" type="email" name="email" required />
+          <button type="submit">Send</button>
         </form>
       </div>
     </div>

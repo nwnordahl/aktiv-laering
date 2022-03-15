@@ -21,6 +21,13 @@ a {
   text-decoration: none;
 }
 
+/* Make sure the font in the form is the same */
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+}
+
 /* Header */
 .header {
   background-color: #e9d8a6;
@@ -148,24 +155,24 @@ a {
 .main-section form input {
   margin-bottom: 40px;
   padding: 20px 200px;
+  border: 0;
   border-radius: 8px;
-
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: groove;
-  /* background-color: #eee; */
 }
 
 .main-section form input:focus {
   outline: none;
 }
 
-.main-section form a {
+.main-section form button {
   color: #f1faee;
   background-color: #0a9396;
   font-weight: bold;
   font-size: 32px;
+  border: 0;
   border-radius: 8px;
   padding: 8px 32px;
+}
+
+.main-section form button:hover {
+  background-color: #023047;
 }
