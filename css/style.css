@@ -65,7 +65,6 @@ input {
 /* Main section */
 .main-section {
   background-color: #e9d8a6;
-  /* padding: 50px 200px 0px 200px; */
 
   display: flex;
   justify-content: center;
@@ -82,7 +81,7 @@ input {
   margin-right: 50px;
 }
 
-.main-section .left-side h1 {
+.main-section .left-side h2 {
   color: #023047;
   font-size: 64px;
   width: 700px;
