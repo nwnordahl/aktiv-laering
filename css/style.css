@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 
-/* Make sure the font in the form is the same */
+/* Make sure the input font in the form is inherited */
 button,
 input {
   font-family: inherit;
@@ -97,8 +97,15 @@ input {
   padding: 8px 32px;
 }
 
-.main-section .left-side a:hover {
-  background-color: #023047;
+.main-section .left-side a:hover,
+.main-section .left-side a:focus {
+  background-color: #005f73;
+  transform: scale(1.03);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.main-section .left-side a:focus {
+  outline: none;
 }
 
 .main-section img {
@@ -148,14 +155,16 @@ input {
   color: #023047;
   font-size: 28px;
   align-self: flex-start;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .main-section form input {
   margin-bottom: 40px;
-  padding: 20px 200px;
+  padding: 15px 60px;
+  width: 600px;
   border: 0;
   border-radius: 8px;
+  font-size: 30px;
 }
 
 .main-section form input:focus {
@@ -172,6 +181,13 @@ input {
   padding: 8px 32px;
 }
 
-.main-section form button:hover {
-  background-color: #023047;
+.main-section form button:hover,
+.main-section form button:focus {
+  background-color: #005f73;
+  transform: scale(1.03);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.main-section form button:focus {
+  outline: none;
 }
